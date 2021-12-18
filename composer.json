@@ -1,0 +1,18 @@
+{
+    "name": "99470/php-mvc",
+    "autoload": {
+        "psr-4": {
+            "app\\": "./"
+        }
+    },
+    "authors": [
+        {
+            "name": "Isa Mukhtarov",
+            "email": "isa.m@solid-sl.com"
+        }
+    ],
+    "require": {
+      "ext-pdo": "*",
+        "vlucas/phpdotenv": "^5.4"
+    }
+}
